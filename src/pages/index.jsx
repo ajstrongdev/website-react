@@ -39,9 +39,9 @@ export default function Home() {
         <div className="project-container lg:w-[90%] lg:grid lg:grid-cols-3 lg:gap-4 m-auto p-4">
           <PortfolioCard title="Rhino Linux" content=" I am the founder and current Desktop Lead of Rhino Linux, the successor distribution to my other project, Rolling Rhino Remix. Rhino Linux is a rolling release Ubuntu-based distribution with Pacstall & XFCE at its core. " image="/assets/rhino-linux.webp" site="https://rhinolinux.org" />
 
-          <PortfolioCard title="Rhino Linux" content=" I am the founder and current Desktop Lead of Rhino Linux, the successor distribution to my other project, Rolling Rhino Remix. Rhino Linux is a rolling release Ubuntu-based distribution with Pacstall & XFCE at its core. " image="/assets/skywm.png" site="https://rhinolinux.org" />
+          <PortfolioCard title="SkyWM" content="skyWM is a minimalistic window manager written in Rust. skyWM takes inspiration from the Unix philosophy of doing one thing and doing it well." image="/assets/skywm.png" site="https://github.com/ajstrongdev/skywm" />
 
-          <PortfolioCard title="Rhino Linux" content=" I am the founder and current Desktop Lead of Rhino Linux, the successor distribution to my other project, Rolling Rhino Remix. Rhino Linux is a rolling release Ubuntu-based distribution with Pacstall & XFCE at its core. " image="/assets/pylure.png" site="https://rhinolinux.org" />
+          <PortfolioCard title="Pylure" content="PyLure is a simple, intuitive and easy to use Python text editor. It utilises TkInter for a truly cross-platform approach, that will work on macOS, Linux and Windows." image="/assets/pylure.png" site="https://github.com/ajstrongdev/pylure" />
           
         </div>
 
