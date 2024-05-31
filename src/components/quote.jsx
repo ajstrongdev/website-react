@@ -119,8 +119,22 @@ function Quote() {
                 <h1 className="text-white p-4 text-3xl lg:text-5xl">
                     Estimated quote: <span className="text-dracula-pink">{formatter.format(quote)}</span>
                 </h1>
-                <h1 className="text-white p-4 text-3xl lg:text-5xl">Email me: <br /><span className="text-dracula-pink">ajstrongdev@proton.me</span></h1>
             </div>
+            <div className="lg:grid lg:grid-cols-2 lg:gap-8 m-auto p-4">
+                <div className="item shadow-2xl md:hover:scale-105 border-solid border-aj-border border-2 p-4 rounded-[0.65em] transition-all mb-4 hover:border-dracula-pink hover:shadow-dracula-pink hover:shadow-bxs">
+                    <h1 className="text-5xl text-white">Message us on Discord</h1>
+                    <p className="font-light text-off-white text-2xl mt-8">
+                        <a href="https://discord.gg/PxecSMZ3eM" className="bottom-0 bg-dracula-pink rounded-xl hover:scale-105 text-black p-2 shadow-2xl">Get a quote</a>
+                    </p>
+                </div>
+                <div className="item shadow-2xl md:hover:scale-105 border-solid border-aj-border border-2 p-4 rounded-[0.65em] transition-all mb-4 hover:border-dracula-pink hover:shadow-dracula-pink hover:shadow-bxs">
+                    <h1 className="text-5xl text-white">Message us on Telegram</h1>
+                    <p className="font-light text-off-white text-2xl mt-8">
+                        <a href="https://t.me/ajstrongdev" className="bottom-0 bg-dracula-pink rounded-xl hover:scale-105 text-black p-2 shadow-2xl">Get a quote</a>
+                    </p>
+                </div>
+            </div>
+            <h1 className="text-center text-white p-4 pb-0 text-3xl lg:text-5xl">Or, you can email me: <br /><span className="text-dracula-pink">ajstrongdev@proton.me</span></h1>
         </div>
     );
 }
